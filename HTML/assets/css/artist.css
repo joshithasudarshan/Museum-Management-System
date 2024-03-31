@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/artists/artist.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{
+    position: relative;
+    height: 60px;
+    width: 70px;
+ }
+ .top-bar{
+    flex: 1;
+    text-align: right;
+ }
+ .top-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+
+ .top-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .top-bar ul li a:hover{
+    color: #fff;
+ }
+ .top-bar active{
+    color: #fff;
+}
+.text-box{
+    width: 90%;
+    color: silver;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.rrv{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 10%;
+    padding-top: 4%;
+}
+.rrvi{
+    width:20%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 3%;
+}
+.rrv h3{
+    padding-top: 7%;
+}
+.van{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    color: #fff;
+    text-align: left;
+    padding: 10%;
+    padding-top: 4%;
+    width: auto;
+    height: 100%;
+    background-image: url(../images/artists/bg_a.jpg);
+}
+.vani{
+    width:20%;
+    height: 40vh;
+    border-radius: 10px;
+    float: right;
+    margin-right: 3%;
+}
+.van h3{
+    padding-top: 7%;
+}
+.meera{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 10%;
+    padding-top: 4%;
+}
+.meerai{
+    width: 20%;
+    height: 40vh;
+    border-radius: 10px;
+    float: left;
+    margin-right: 3%;
+}
+.meera h3{
+    padding-top: 3%;
+}
+.neeraj{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    color: #fff;
+    text-align: left;
+    padding: 10%;
+    padding-top: 4%;
+    width: auto;
+    height: 100%;
+    background-image: url(../images/artists/bg_a.jpg);
+}
+.neeraji{
+    width:20%;
+    height: 40vh;
+    border-radius: 10px;
+    float: right;
+    margin-right: 3%;
+}
+.neeraj h3{
+    padding-top: 3%;
+}
+.leo{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 10%;
+    padding-top: 4%;
+}
+.leoi{
+    width: 25%;
+    height: 40vh;
+    border-radius: 10px;
+    float: left;
+    margin-right: 3%;
+}
+.leo h3{
+    padding-top: 3%;
+}
+.ram{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    color: #fff;
+    text-align: left;
+    padding: 10%;
+    padding-top: 4%;
+    width: cover;
+    height: 100%;
+    background-image: url(../images/artists/bg_a.jpg);
+}
+.rami{
+    width:20%;
+    height: 40vh;
+    border-radius: 10px;
+    float: right;
+    margin-right: 3%;
+}
+.ram h3{
+    padding-top: 3%;
+}

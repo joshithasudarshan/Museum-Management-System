@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 210vh;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../images/bg10.jpeg);
+    background-position: center;
+    background-size: 150%;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{
+    position: relative;
+    height: 60px;
+    width: 70px;
+ }
+ .top-bar{
+    flex: 1;
+    text-align: right;
+ }
+ .top-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+
+ .top-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .top-bar ul li a:hover{
+    color: black;
+ }
+ .active{
+    color: black;
+}
+table,th,tr,td{
+    border: 1px solid rgb(19, 18, 18);
+}
+.table{
+    padding-top: 5%;
+}
+.reg_artifacts{
+    padding-left: 2%;
+    padding-top: 3%;
+}
+.reg_artifacts button{
+    background-color: gray;
+    height: 30px;
+    width: 190px;
+}
+.btn btn-warning{
+    background-color: rgba(11, 11, 249, 0.463);
+}
+.btn btn-danger{
+    background-color: rgba(255, 0, 0, 0.599);
+}

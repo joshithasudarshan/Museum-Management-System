@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../images/artists/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{
+    position: relative;
+    height: 60px;
+    width: 70px;
+ }
+ .top-bar{
+    flex: 1;
+    text-align: right;
+ }
+ .top-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+
+ .top-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .top-bar ul li a:hover{
+    color: #fff;
+ }
+ .active{
+    color: #fff;
+}
+.text-box{
+    width: 90%;
+    color: silver;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.gmaps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maps{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+.contact{
+padding-left: 2%;
+padding-right: 3%;
+}
+.profile {
+    width: 90%;
+    color: silver;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    padding-top: 5%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}

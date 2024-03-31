@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../images/front.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{
+    position: relative;
+    height: 60px;
+    width: 70px;
+ }
+ .top-bar{
+    flex: 1;
+    text-align: right;
+ }
+ .top-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+
+ .top-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .top-bar ul li a:hover{
+    color: black;
+ }
+ .active{
+    color: black;
+}
+.text-box{
+    width: 90%;
+    color: #fef9f3;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.text-box p{
+    margin: 2px 0 10px;
+    font-size: 18px;
+}
+.sections{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sections p{
+    margin: 2px 0 10px;
+    font-size: 18px;
+}
+.facilities{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10%;
+    padding-top: 0.5%;
+}
+.facilities img{
+    width:100%;
+    border-radius: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback{
+    margin: 50px auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../images/feedback.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+    padding: 100px 0;
+}
+.feedback h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.feed,
+.name,
+.email,
+.btn{
+    display:inline-block;
+    padding: .5rem 1rem;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 4rem solid beige;
+    color: beige;
+    transition: .3s;
+}
+.feedback label{
+    font-size: medium;
+    color: #fff;
+}
+.form{
+    width: 350px;
+    height: 350px;
+    margin: 100px auto;
+    background: rgba(255,255,255,.3);
+    border: 3px solid beige;
+}
+.feedback p{
+    color: beige;
+    margin: 2px 0 10px;
+    padding-top: 0%;
+    font-size: 18px;
+}

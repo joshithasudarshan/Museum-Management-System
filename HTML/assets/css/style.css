@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(../images/booking_back.jpg);
+    background-position: center;
+    background-size: auto;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{
+    position: relative;
+    height: 60px;
+    width: 70px;
+ }
+ .top-bar{
+    flex: 1;
+    text-align: right;
+ }
+ .top-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+
+ .top-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .top-bar ul li a:hover{
+    color: black;
+ }
+ .active{
+    color: black;
+}
+
+/*ticket-booking*/
+
+
+
+
+.book-form{
+    max-width: 500px;
+    border: 3px solid beige;
+    margin:20% auto 0;
+    position: relative;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    bottom: 15%;
+}
+.email,
+.btn,
+.phno,
+.tno,
+.date,
+.name
+{
+    height: 1cm;
+    display:inline-block;
+    padding: .5rem 1rem;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 3rem solid beige;
+    color: black;
+    transition: .3s;
+}
+.label{
+    display:inline-block;
+    width: 140px;
+    margin: 0.1cm;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.popup{
+    width:400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px; 
+    color: #333; 
+    visibility: hidden;  
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+    width: 150px ;
+    margin-top: -15%;
+    border-radius: 50%;
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: bisque;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-container form .error-msg{
+    margin:10px 0;
+    display: block;
+    background:  rgba(255,255,255,.2);
+    color:balckk;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
+
+
+
+
+
