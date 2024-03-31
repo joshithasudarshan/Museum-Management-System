@@ -2,7 +2,6 @@
 
 
 1. Download Xampp(phpMyadmin).
-Read Me
 2. Create a folder of all the front and backend codes. Copy this folder to htdocs on xampp.
 3. Open the xampp control panel, run apache and MySQL.
 4. Also click on admin for both.
