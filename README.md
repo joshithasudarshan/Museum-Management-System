@@ -1,4 +1,4 @@
-#MUSEUM MANAGEMENT SYSTEM
+*MUSEUM MANAGEMENT SYSTEM*
 
 
 1. Download Xampp(phpMyadmin).
